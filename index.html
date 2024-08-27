@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Engine - Main Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+    <img id="logo-header" src="logo.svg" alt="Logo" class="logo">
+    <div class="theme-toggler-container">
+      <button id="theme-toggler">
+        <img src="assets/logo/waning_moon.png" alt="Tema">
+      </button>
+    </div>
+    <div class="search-container">
+      <select id="engine-list">
+        <option value="duckduckgo" selected>DuckDuckGo</option>
+        <option value="archwiki">ArchWiki</option>
+        <option value="archuserrepository">AUR</option>
+        <option value="google">Google</option>
+        <option value="youtube">YouTube</option>
+        <option value="wikipedia">Wikipedia</option>
+      </select>
+      <input type="text" id="search-field" placeholder="Search for something...">
+      <button id="search-button">
+        <img src="assets/logo/search.svg" alt="Search">
+      </button>
+    </div>
+    <div class="ai-chat-container">
+      <a href="https://duckduckgo.com/aichat">
+        <button id="ai-chat-button">
+          <img src="assets/logo/aichip.png" alt="AI Chat">
+        </button>
+      </a>
+    </div>
+    <script src="engine.js"></script>
+  </body>
+
+</html>
+

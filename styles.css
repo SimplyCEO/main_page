@@ -1,0 +1,121 @@
+body
+{
+  transition: background-color 0.14s ease;
+  text-align: center;
+}
+
+/* SEARCH ENGINE HEADER LOGO */
+
+.logo
+{
+  display: block;
+  margin: 0 auto;
+  margin-top: 14%;
+  width: 300px;
+  height: auto;
+}
+
+/* THEME TOGGLE BUTTON */
+
+.theme-toggler-container
+{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.light
+{
+  background-color: #F2F2F2;
+  color: black;
+}
+
+.dark
+{
+  background-color: #222222;
+  color: white;
+}
+
+#theme-toggler
+{
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+#theme-toggler img
+{
+  width: 100%;
+  height: 100%
+}
+
+/* SEARCH ENGINE FIELD */
+
+.search-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#engine-list
+{
+  margin-right: 14px;
+  padding: 0.14%;
+  background-color: #333333;
+  border: none;
+  color: white;
+}
+
+#search-field
+{
+  margin-right: 14px;
+  padding: 0.7%;
+  width: 35%;
+  background-color: #333333;
+  border: none;
+  color: #F2F2F2;
+}
+
+#search-button
+{
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  background-color: #008080;
+  border: none;
+  color: white;
+}
+#search-button img
+{
+  width: 100%;
+  height: 100%;
+}
+
+/* AI BUTTON */
+
+.ai-chat-container
+{
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+}
+
+#ai-chat-button
+{
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+#ai-chat-button img
+{
+  width: 100%;
+  height: 100%;
+}
+
